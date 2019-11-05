@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Sign up form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="event.js"></script>
+</head>
+<body>
+    
+  <div class="parent1">
+    <div class="parent2">
+      
+      <div class="container1">
+        <h1>Learn to code by <br>watching others</h1>
+        <p style="font-size: 15px; text-align: initial;">See how experienced developers solve problems in real-time. <br>
+          Watching scripted tutorials is great, but understanding how <br> 
+          developers think is invaluable.</p>
+      </div>
+      <div>
+          <div>
+              <button id="button1"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+          </div>
+        <div class="container2">
+          <form name="forms" id="formss" method="post" onsubmit="return validateForm()">
+          <input type="text" name="fname" id="name" placeholder="First Name"/>
+          <input type="text" name="lname" id="lname" placeholder="Last Name" />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="password" name="password" id="password" placeholder="Password" />
+          <input type="submit" value="CLAIM YOUR FREE TRIAL" id="button">
+          <p id="p">By clicking the button, you are agreeing to our. <span id="span">Terms and Services</span></p>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+  
+</body>
+</html>
